@@ -2,3 +2,20 @@ body {
     background-color: #a4f9c8;
     user-select: none;
 }
+
+.buttonsContainer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameContainer {
+    display: flex;
+    background: rgb(110, 214, 96);
+    height: 500px;
+    width: 800px;
+    justify-content: center;
+    border: solid;
+    margin: 4rem auto; 
+    box-shadow: 0 0 20px 5px rgba(108, 255, 169, 0.5);
+}
