@@ -1,3 +1,4 @@
 body {
     background-color: #a4f9c8;
+    user-select: none;
 }
