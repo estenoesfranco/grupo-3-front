@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
 }
 
-.gameContainer {
+.gameContainer{
     display: flex;
     background: rgb(110, 214, 96);
     height: 500px;
@@ -20,3 +20,16 @@ body {
     box-shadow: 0 0 20px 5px rgba(108, 255, 169, 0.5);
 }
 
+.row {
+    display: flex;
+    flex-wrap: sinenvoltura; /* Alternativamente: noenvoltura */
+    gap: 10px;
+}
+
+.card {
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    cursor: pointer;
+}
