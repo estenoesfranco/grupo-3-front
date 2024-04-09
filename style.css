@@ -44,7 +44,9 @@ body {
     margin-bottom: 1rem;
     height: 450px;
 }
-
+#card1{
+        animation: flipOutY 2s ease;
+}
 .card {
     display: flex;
     width: 100%;
@@ -54,4 +56,12 @@ body {
     margin: 5%;
     justify-content: center;
     align-items: center;
+}
+.footer{
+    background-color:  #001D4A;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
 }
