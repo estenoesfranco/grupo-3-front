@@ -44,9 +44,7 @@ body {
     margin-bottom: 1rem;
     height: 450px;
 }
-#card1{
-        animation: flipOutY 2s ease;
-}
+
 .card {
     display: flex;
     width: 100%;
@@ -57,11 +55,24 @@ body {
     justify-content: center;
     align-items: center;
 }
-.footer{
-    background-color:  #001D4A;
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
+
+.menuButton {
+    margin-bottom: 1rem;
+}
+
+.placeholder {
+    cursor: default;
+}
+
+@media (max-width: 271px) {
+    .gameContainer {
+        margin-top: 6.5rem;
+    }
+}
+
+@media (max-width: 257px) {
+    .buttonsContainer {
+        display: flex;
+        flex-direction: column;
+    }
 }
