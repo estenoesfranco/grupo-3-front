@@ -1,0 +1,77 @@
+body{
+  background-color: #94B9D1;
+  padding-top: 5%;  
+}
+.ImgLogo{
+  height: 7%;
+  width: 7%;
+}
+
+.container {  
+  background-color: #D6EADF;
+  padding-left: 8%;
+  display: grid;
+  border: solid;
+  margin: 4rem auto;
+  box-shadow: 0 0 20px 5px #D6EADF;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  gap:0% 0%;
+  grid-auto-flow: row;
+  grid-template-areas:
+  ". . . ."
+  ". . . ."
+  ". . . ."
+  ". . . .";
+  border-radius: 20px;
+}
+
+.card{
+  background-color: #B7E0D2;
+  max-width: 20%;
+  max-height: 20%;
+  padding: 20%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  transition: opacity 0.5s ease; 
+  animation: flipOutY 2s ease;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #001D4A;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mezclar{
+  background-color: #001D4A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top:5%;
+  border:2px solid black;
+}
+
+.contadores {
+  max-width: 20%; 
+  padding: 2%; 
+  background-color: #001D4A;
+  box-shadow: 0 0 20px 5px  #5f8ead;
+  color: white;
+  margin: 0 auto;
+  margin-top: 2%;
+  border-radius: 10px;
+}

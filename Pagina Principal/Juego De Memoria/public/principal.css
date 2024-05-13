@@ -1,0 +1,30 @@
+body{
+    background-color: #94B9D1;
+    padding-top: 5%;  
+}
+.ImgLogo{
+    height: 7%;
+    width: 7%;
+}
+.cards{
+    height:30% ;
+    width:30% ;
+    background-color: #D6EADF;
+    border:2px solid black;
+    border-radius: 22%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.img1{
+    height:50% ;
+    width:90% ;
+    border-radius: 25%;
+    margin-left: 5%;
+
+}
+.cardTitle{
+    margin-left: 20%;
+}
+.cardText{
+    margin-left: 3%;
+}
