@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body-container">        
+        <nav class="navbar fixed-top" style="background-color: #001d4a;" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="/Pagina Principal/index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <img src="/Pagina Principal/Juego De Memoria/public/Logo.png" class="ImgLogo">
+                    <span class="fs-4">Juegos De Memoria</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" style="background-color: #001d4a;" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Opciones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <span class="placeholder" style="width: 100%;"></span>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"></ul>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Niveles
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Pagina Principal/Juego De Memoria/nivel1/Nivel1.html">Nivel 1</a></li>
+                                <li><a class="dropdown-item" href="/Pagina Principal/Juego De Memoria/nivel2/Nivel2.html">Nivel 2</a></li>
+                                <li><a class="dropdown-item" href="/Pagina Principal/Juego De Memoria/nivel3/Nivel3.html">Nivel 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="buttonsContainer">
+                            <button href="/Pagina Principal/index.html" class="btn btn-outline-primary" type="submit" >Salir del juego</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    
+</body>
+</html>
