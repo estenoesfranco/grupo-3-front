@@ -29,11 +29,11 @@ body{
 }
 .card{
   background-color: #B7E0D2;
-  max-width: 20%;
-  max-height: 20%;
-  padding: 20%;
+  max-width: 35%;
+  max-height: 35%;
+  padding: 0%;
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 0%;
   margin-bottom: 10%;
   border-radius: 20px;
   justify-content: center;
