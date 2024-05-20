@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogIn</title>
+    <title>Registrarse</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/registrarse.css">
 
 </head>
 <body>
     <%- include("fragmentos/Navbar"); %>
     <div class="container my-5">
         <form>
-            <h1 class="h3 mb-3 fw-normal">Inicia seción</h1>
+            <h1 class="h3 mb-3 fw-normal">Registrate</h1>
             <div class="form-floating">
                 <input  class="form-control">
                 <label for="floatingInput">Nombre de Usuario</label>
@@ -21,7 +21,11 @@
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Contraseña</label>
             </div>
-            <button class="btn btn-primary w-100 py-2" type="submit" style="background-color: #001D4A; border:2px solid black;">Sign in</button>
+            <div class="form-floating">
+                <input class="form-control" >
+                <label for="floatingPassword">Edad</label>
+            </div>
+            <button class="btn btn-primary w-100 py-2" type="submit" style="background-color: #001D4A; border:2px solid black;">Check in</button>
             <div class="container my-5">
                 <div class="card social-block" style="background-color: #5f8ead;">
                     <div class="card-body" style="text-align: center !important; background-color: #5f8ead;" >

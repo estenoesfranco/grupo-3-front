@@ -1,6 +1,6 @@
 body{
-  background-color: #94B9D1;
-  padding-top: 2%;  
+  background-image: url('/fondo.png');
+  background-repeat: repeat;
 }
 .ImgLogo{
   height: 7%;

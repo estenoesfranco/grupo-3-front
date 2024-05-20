@@ -24,10 +24,17 @@ app.get("/login", (req, res) => {
     res.render("log-in")
 });
 
+app.get("/Registrarse", (req, res) => {
+    res.render("registrarse")
+});
+
+app.get("/logged-user", (req, res) => {
+    res.render("Logged-user")
+});
+
 app.use((req, res, next) => {
     res.status("404").render("404")
 });
-
 
 app.listen(port, () => {
     console.log(`Servidor corriendo en el puerto ${port} correctamente`);

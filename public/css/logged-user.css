@@ -1,0 +1,7 @@
+body{
+    background-image: url('/fondo.png');
+    background-repeat: repeat; 
+}
+.modal-content{
+    background-color: #B7E0D2;
+}
