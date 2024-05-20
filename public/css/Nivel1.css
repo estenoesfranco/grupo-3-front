@@ -45,8 +45,6 @@ body{
   animation: flipOutY 2s ease;
 }
 
-<<<<<<< HEAD:public/css/Nivel1.css
-=======
 .card-img {
   width: 100%;
   height: 100%;
@@ -64,7 +62,6 @@ body{
   align-items: center;
   justify-content: center;
 }
->>>>>>> 03bc83701e1d4afe398c15dacbf8130242602ab4:Pagina Principal/Juego De Memoria/public/Nivel1.css
 .mezclar{
   background-color: #001D4A;
   color: white;

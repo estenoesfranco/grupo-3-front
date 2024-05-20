@@ -7,14 +7,25 @@ app.set('view engine', 'ejs');
 app.get("/", (req, res) => {
     res.render("index")
 });
+
 app.get('/Nivel1', (req, res) => {
     res.render('Nivel1');
 });
+
 app.get("/Nivel2", (req, res) => {
     res.render("Nivel2")
 });
+
 app.get("/Nivel3", (req, res) => {
     res.render("Nivel3")
+});
+
+app.get("/login", (req, res) => {
+    res.render("log-in")
+});
+
+app.use((req, res, next) => {
+    res.status("404").render("404")
 });
 
 

@@ -11,22 +11,30 @@ body{
     width:30% ;
     background-color: #D6EADF;
     border:2px solid black;
-    border-radius: 22%;
-    margin-top: 10%;
+    border-radius: 5%;
+    margin-top: 4%;
     margin-left: 5%;
+}
+#botonplay{
+    margin-bottom: 3%;
 }
 .img1{
     height:50% ;
     width:90% ;
-    border-radius: 25%;
-    margin-left: 6%;
-
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.cardTitle{
-    margin-left: 20%;
+.card-title{
+    margin-left: 15%;
 }
-.cardText{
-    margin-left: 3%;
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 5%;
+    margin-left: 5%;
 }
 .footer {
     position: fixed;
@@ -42,7 +50,6 @@ body{
 .indsn{
     height:auto ;
     width:auto ;
-    background-color: rgb(32, 62, 171);
     border-color:black ;
     border-radius: 10%;
 }
