@@ -1,5 +1,5 @@
 const app = require('./app')
-const port = 3000;
+const port = 4000;
 
 app.set('view engine', 'ejs');
 
@@ -24,7 +24,7 @@ app.get("/login", (req, res) => {
     res.render("log-in")
 });
 
-app.get("/Registrarse", (req, res) => {
+app.get("/registrarse", (req, res) => {
     res.render("registrarse")
 });
 

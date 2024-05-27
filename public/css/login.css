@@ -2,3 +2,9 @@ body{
     background-image: url('/fondo.png');
     background-repeat: repeat; 
 }
+#nombre{
+    margin-bottom: 3%;
+}
+#contraseña{
+    margin-bottom: 3%;
+}
