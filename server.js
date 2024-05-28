@@ -15,6 +15,9 @@ app.get("/Nivel2", (req, res) => {
 app.get("/Nivel3", (req, res) => {
     res.render("Nivel3")
 });
+app.get("/Juego2Nivel2", (req, res) => {
+    res.render("Juego2Nivel2")
+});
 app.get("/login", (req, res) => {
     res.render("log-in")
 });
