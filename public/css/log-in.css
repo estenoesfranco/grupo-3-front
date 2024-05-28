@@ -2,3 +2,15 @@
     display: flex;
     justify-content: center;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#nombre{
+    margin-bottom: 3%;
+}
+
+#contraseña{
+    margin-bottom: 3%;
+}
