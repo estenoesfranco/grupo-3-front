@@ -27,90 +27,82 @@ function updateCounters() {
 }
 
 img1.addEventListener("click", function ()  {
-    aux = aux + feliz1;
+    aux += feliz1;
     img1.classList.add("img-clicked");
     setTimeout(function() {
         img1.classList.remove("img-clicked");
     }, 1000);
-
 });
 img2.addEventListener("click", function ()  {
-    aux = aux + triste1;
+    aux += triste1;
     img2.classList.add("img-clicked");
     setTimeout(function() {
         img2.classList.remove("img-clicked");
     }, 1000);
-
 });
 img3.addEventListener("click", function ()  {
-    aux = aux + enojado1;
+    aux += enojado1;
     img3.classList.add("img-clicked");
     setTimeout(function() {
         img3.classList.remove("img-clicked");
     }, 1000);
-
 });
 img4.addEventListener("click", function ()  {
-    aux = aux + sorprendido1;
+    aux += sorprendido1;
     img4.classList.add("img-clicked");
     setTimeout(function() {
         img4.classList.remove("img-clicked");
     }, 1000);
-
 });
 
 text1.addEventListener("click", function ()  {
-    aux = aux + sorprendido2;
-    if (aux == 8) {
+    aux += sorprendido2;
+    if (aux === 8) {
         text1.style.visibility = "hidden";
         img4.style.visibility = "hidden";
         buenas++;
     } else {
-        aux = aux * 0;
         malas++;
     }
-    aux = aux * 0;
+    aux = 0;
     updateCounters();
 });
 
 text2.addEventListener("click", function ()  {
-    aux = aux + enojado2;
-    if (aux == 6) {
+    aux += enojado2;
+    if (aux === 6) {
         text2.style.visibility = "hidden";
         img3.style.visibility = "hidden";
         buenas++;
     } else {
-        aux = aux * 0;
         malas++;
     }
-    aux = aux * 0;
+    aux = 0;
     updateCounters();
 });
 
 text3.addEventListener("click", function ()  {
-    aux = aux + feliz2;
-    if (aux == 2) {
+    aux += feliz2;
+    if (aux === 2) {
         text3.style.visibility = "hidden";
         img1.style.visibility = "hidden";
         buenas++;
     } else {
-        aux = aux * 0;
         malas++;
     }
-    aux = aux * 0;
+    aux = 0;
     updateCounters();
 });
 
 text4.addEventListener("click", function ()  {
-    aux = aux + triste2;
-    if (aux == 4) {
+    aux += triste2;
+    if (aux === 4) {
         text4.style.visibility = "hidden";
         img2.style.visibility = "hidden";
         buenas++;
     } else {
-        aux = aux * 0;
         malas++;
     }
-    aux = aux * 0;
+    aux = 0;
     updateCounters();
 });
