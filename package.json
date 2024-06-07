@@ -1,25 +1,38 @@
 {
-  "name": "grupo-3-front",
+  "name": "expressbase",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Proyecto con estructura recomendada para comenzar nuevos proyectos con ExpressJs",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "nodemon server.js",
+    "start-dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/estenoesfranco/grupo-3-front.git"
-  },
-  "author": "",
+  "keywords": [
+    "expressJs",
+    "base"
+  ],
+  "author": "Lic. García Héctor",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/estenoesfranco/grupo-3-front/issues"
-  },
-  "homepage": "https://github.com/estenoesfranco/grupo-3-front#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.18.0",
+    "moment": "^2.29.1",
+    "mongodb": "^6.5.0",
+    "mongoose": "^6.13.0",
+    "mongoose-findorcreate": "^4.0.0",
     "morgan": "^1.10.0",
-    "path": "^0.12.7"
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "path": "^0.12.7",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
