@@ -54,6 +54,7 @@ body {
     left: 0;
     width: 100%;
     background-color: #001D4A;
+    
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -65,4 +66,5 @@ body {
     width: auto;
     border-color: black;
     border-radius: 10%;
+
 }

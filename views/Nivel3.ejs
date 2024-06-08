@@ -10,7 +10,11 @@
     </head>
     <body>
         <%- include("fragmentos/Navar-Cards"); %>
-        
+        <div class="contadores">
+            <div id="errores">Errores: <span id="contador">0</span></div>
+            <div id="aciertos">Aciertos: <span id="contadorr">0</span></div>
+            <button class="mezclar" id="mezclar3">Mezclar</button>
+        </div>
         <div class="container">
             <button class="card" id="carta1"><img src="imgNivelTres/emojiFeliz.jpg" alt="Card 1" class="card-img"></button>
             <button class="card" id="carta2"><img src="imgNivelTres/emojiGatito.jpg" alt="Card 2" class="card-img"></button>
@@ -40,13 +44,6 @@
             <button class="card" id="carta26"><img src="imgNivelTres/emojiNube.jpg" alt="Card 26" class="card-img"></button>
             <button class="card" id="carta27"><img src="imgNivelTres/emojiPlata.jpg" alt="Card 27" class="card-img"></button>
             <button class="card" id="carta28"><img src="imgNivelTres/emojiSol.jpg" alt="Card 28" class="card-img"></button>
-
-        </div>
-        <div class="contadores">
-            <div id="errores">Errores: <span id="contador">0</span></div>
-            <div id="aciertos">Aciertos: <span id="contadorr">0</span></div>
-            <button class="mezclar" id="mezclar3">Mezclar</button>
-        </div>
         <%- include("fragmentos/footer"); %>
     </div>
 </body>
