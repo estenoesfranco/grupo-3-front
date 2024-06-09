@@ -1,7 +1,21 @@
 let botones = document.querySelectorAll(".card");
-let mezclar1Botton = document.getElementById("mezclar1");
 let mezclar2Botton = document.getElementById("mezclar2");
-let mezclar3Botton = document.getElementById("mezclar3");
+let carta1 = document.getElementById("C1");
+let carta2 = document.getElementById("C2");
+let carta3 = document.getElementById("C3");
+let carta4 = document.getElementById("C4");
+let carta5 = document.getElementById("C5");
+let carta6 = document.getElementById("C6");
+let carta7 = document.getElementById("C7");
+let carta8 = document.getElementById("C8");
+let carta9 = document.getElementById("C9");
+let carta10 = document.getElementById("C10");
+let carta11 = document.getElementById("C11");
+let carta12 = document.getElementById("C12");
+let carta13 = document.getElementById("C13");
+let carta14 = document.getElementById("C14");
+let carta15 = document.getElementById("C15");
+let carta16 = document.getElementById("C16");
 let sameChecking  = ['n', 'n']
 let combination= ['n', 'n']
 let imagenes1 = imagenes2 = [

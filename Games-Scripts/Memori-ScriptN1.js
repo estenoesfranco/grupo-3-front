@@ -1,46 +1,69 @@
 let botones = document.querySelectorAll(".card");
+
 let mezclar1Botton = document.getElementById("mezclar1");
-let mezclar2Botton = document.getElementById("mezclar2");
-let mezclar3Botton = document.getElementById("mezclar3");
+let carta1 = document.getElementById("C1");
+let carta2 = document.getElementById("C2");
+let carta3 = document.getElementById("C3");
+let carta4 = document.getElementById("C4");
+let carta5 = document.getElementById("C5");
+let carta6 = document.getElementById("C6");
+let carta7 = document.getElementById("C7");
+let carta8 = document.getElementById("C8");
+let img1 = "/imgNivelUno/circulo2N1.jpeg"
+let img2 = "/imgNivelUno/circuloN1.jpeg"
+let img3 = "/imgNivelUno/cuadradoN1.jpeg"
+let img4 = "/imgNivelUno/trianguloN1.jpeg"
 let sameChecking  = ['n', 'n']
 let combination= ['n', 'n']
 let imagenes1 = [
-    {
+    { 
+        img: "",
         url : "0",
-        id : "0a",
-        value : "0"
+        id : "0a", 
+        value : "0",
     },
     {
+        img: "",
         url : "0",
         id : "0b",
-        value : "0"
+        value : "0",
+        
     },
     {
+        img: "",
         url : "1",
         id : "1a",
-        value : "1"
+        value : "1",
+        
     },
     {
+        img: "",
         url : "1",
         id : "1b",
         value : "1"
+        
     },
     {
+        img: "",
         url : "2",
         id : "2a",
-        value : "2"
+        value : "2",
+        
     },
     {
+        img: "",
         url : "2",
         id : "2b",
         value : "2"
     },
     {
+        img: "",
         url : "3",
         id : "3a",
         value : "3"
     },
     {
+        img: "",
         url : "3",
         id : "3b",
         value : "3"
@@ -52,7 +75,6 @@ function mix(arreglo) {
         return Math.random() - 0.5;
     });
 }
-
 mezclar1Botton.addEventListener("click", () => {
     mix(imagenes1)
     botones.forEach(function(boton, i) {
@@ -62,7 +84,6 @@ mezclar1Botton.addEventListener("click", () => {
         boton.value = asig.value;
     });
 });
-
 
 function asignarCheck(id, value){
     if(sameChecking [0] == "n"){
